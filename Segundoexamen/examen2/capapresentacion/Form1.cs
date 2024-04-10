@@ -14,7 +14,7 @@ namespace capapresentacion
     public partial class Form1 : Form
     {
         CN_Empleado objetoCN = new CN_Empleado();
-        private string idProducto = null;
+        private string idempleado = null;
         private bool Editar = false;
         public Form1()
         {
@@ -37,7 +37,7 @@ namespace capapresentacion
             {
                 try
                 {
-                   //objetoCN.Insertaremp(txtnombre.Text, txtapellido.Text, txtsueldo, txtcategoria.Text, txtsueldoneto);
+                   objetoCN.Insertaremp(txtnombre.Text, txtapellido.Text, txtsueldo.Text, txtcategoria.Text, txtsueldoneto.Text);
                     MessageBox.Show("se inserto correctamente");
                     MostrarEmpleado();
                     limpiarForm();
@@ -52,8 +52,7 @@ namespace capapresentacion
             {
                 try
                 {
-                    //objetoCN.Editaremp(txtnombre.Text, txtapellido.Text, txtsueldo.Text, txtcategoria.Text, txtsueldoneto.Text, idProducto);
-                    //objetoCN.Editaremp(txtnombre.Text, txtapellido.Text, txtsueldo, txtcategoria.Text, txtsueldoneto, idProducto);
+                    objetoCN.Editaremp(txtnombre.Text, txtapellido.Text, txtsueldo.Text, txtcategoria.Text, txtsueldoneto.Text, idempleado);
                     MessageBox.Show("se edito correctamente");
                     MostrarEmpleado();
                     limpiarForm();
@@ -65,6 +64,23 @@ namespace capapresentacion
                 }
             }
         }
+       
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+            if (dataGridView1.SelectedRows.Count > 0)
+            {
+                Editar = true;
+                txtnombre.Text = dataGridView1.CurrentRow.Cells["nombre"].Value.ToString();
+                txtapellido.Text = dataGridView1.CurrentRow.Cells["apellido"].Value.ToString();
+                txtsueldo.Text = dataGridView1.CurrentRow.Cells["sueldo"].Value.ToString();
+                txtcategoria.Text = dataGridView1.CurrentRow.Cells["categoria"].Value.ToString();
+                txtsueldoneto.Text = dataGridView1.CurrentRow.Cells["sueldoneto"].Value.ToString();
+                idempleado = dataGridView1.CurrentRow.Cells["idempleado"].Value.ToString();
+            }
+            else
+                MessageBox.Show("seleccione una fila por favor");
+        }
         private void limpiarForm()
         {
             txtapellido.Clear();
@@ -73,5 +89,20 @@ namespace capapresentacion
             txtsueldoneto.Clear();
             txtnombre.Clear();
         }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            if (dataGridView1.SelectedRows.Count > 0)
+            {
+                idempleado = dataGridView1.CurrentRow.Cells["idempleado"].Value.ToString();
+                objetoCN.Eliminaremp(idempleado);
+                MessageBox.Show("Eliminado correctamente");
+                    MostrarEmpleado();
+            }
+            else
+                MessageBox.Show("seleccione una fila por favor");
+        }
+        }
+
     }
-}
+

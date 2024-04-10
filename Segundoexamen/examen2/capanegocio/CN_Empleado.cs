@@ -18,11 +18,11 @@ namespace capanegocio
             tabla = objetoCD.mostrar();
             return tabla;
         }
-        public void Insertaremp(string nombre, string apellido, double sueldo, string categoria, double sueldoneto)
+        public void Insertaremp(string nombre, string apellido, string sueldo, string categoria, string sueldoneto)
         {
             objetoCD.Insertar(nombre, apellido, Convert.ToDouble(sueldo), categoria, Convert.ToDouble(sueldoneto));
         }
-        public void Editaremp(string nombre, string apellido, double sueldo, string categoria, double sueldoneto, string id)
+        public void Editaremp(string nombre, string apellido, string sueldo, string categoria, string sueldoneto, string id)
         {
             objetoCD.Editar(nombre, apellido, Convert.ToDouble(sueldo), categoria, Convert.ToDouble(sueldoneto), Convert.ToInt32(id));
         }
