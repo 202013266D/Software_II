@@ -45,5 +45,5 @@ create proc Editarempleado
 @sueldoneto float,
 @idemp int
 as
-update empleado set Nombre=@nombre, apellido=@apellido, sueldo=@sueldo, categoria=@categoria, @sueldoneto=@sueldoneto where idempleado=@i
+update empleado set Nombre=@nombre, apellido=@apellido, sueldo=@sueldo, categoria=@categoria, @sueldoneto=@sueldoneto where idempleado=@idemp
 go
