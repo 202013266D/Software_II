@@ -1,0 +1,5 @@
+C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\Agenda-main (1)\Agenda-main\Agenda.be\bin\Debug\Agenda.be.dll
+C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\Agenda-main (1)\Agenda-main\Agenda.be\bin\Debug\Agenda.be.pdb
+C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\Agenda-main (1)\Agenda-main\Agenda.be\obj\Debug\Agenda.be.csprojResolveAssemblyReference.cache
+C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\Agenda-main (1)\Agenda-main\Agenda.be\obj\Debug\Agenda.be.dll
+C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\Agenda-main (1)\Agenda-main\Agenda.be\obj\Debug\Agenda.be.pdb
