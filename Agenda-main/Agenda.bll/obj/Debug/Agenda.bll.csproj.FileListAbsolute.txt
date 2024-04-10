@@ -1,0 +1,9 @@
+C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\proyecto2\Agenda-main\Agenda.bll\bin\Debug\Agenda.bll.dll
+C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\proyecto2\Agenda-main\Agenda.bll\bin\Debug\Agenda.bll.pdb
+C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\proyecto2\Agenda-main\Agenda.bll\bin\Debug\Agenda.be.dll
+C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\proyecto2\Agenda-main\Agenda.bll\bin\Debug\Agenda.dal.dll
+C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\proyecto2\Agenda-main\Agenda.bll\bin\Debug\Agenda.be.pdb
+C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\proyecto2\Agenda-main\Agenda.bll\bin\Debug\Agenda.dal.pdb
+C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\proyecto2\Agenda-main\Agenda.bll\obj\Debug\Agenda.bll.csprojResolveAssemblyReference.cache
+C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\proyecto2\Agenda-main\Agenda.bll\obj\Debug\Agenda.bll.dll
+C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\proyecto2\Agenda-main\Agenda.bll\obj\Debug\Agenda.bll.pdb

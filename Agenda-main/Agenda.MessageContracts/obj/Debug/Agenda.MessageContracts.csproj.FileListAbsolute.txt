@@ -1,0 +1,7 @@
+C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\proyecto2\Agenda-main\Agenda.MessageContracts\bin\Debug\Agenda.MessageContracts.dll
+C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\proyecto2\Agenda-main\Agenda.MessageContracts\bin\Debug\Agenda.MessageContracts.pdb
+C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\proyecto2\Agenda-main\Agenda.MessageContracts\bin\Debug\Agenda.DataContracts.dll
+C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\proyecto2\Agenda-main\Agenda.MessageContracts\bin\Debug\Agenda.DataContracts.pdb
+C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\proyecto2\Agenda-main\Agenda.MessageContracts\obj\Debug\Agenda.MessageContracts.csprojResolveAssemblyReference.cache
+C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\proyecto2\Agenda-main\Agenda.MessageContracts\obj\Debug\Agenda.MessageContracts.dll
+C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\proyecto2\Agenda-main\Agenda.MessageContracts\obj\Debug\Agenda.MessageContracts.pdb
