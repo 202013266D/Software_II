@@ -1,0 +1,7 @@
+C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\proyecto2\Segundoexamen\Proyectofinal\CapaNegocios\bin\Debug\CapaNegocios.dll
+C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\proyecto2\Segundoexamen\Proyectofinal\CapaNegocios\bin\Debug\CapaNegocios.pdb
+C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\proyecto2\Segundoexamen\Proyectofinal\CapaNegocios\bin\Debug\CapaDatos.dll
+C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\proyecto2\Segundoexamen\Proyectofinal\CapaNegocios\bin\Debug\CapaDatos.pdb
+C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\proyecto2\Segundoexamen\Proyectofinal\CapaNegocios\obj\Debug\CapaNegocios.csprojResolveAssemblyReference.cache
+C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\proyecto2\Segundoexamen\Proyectofinal\CapaNegocios\obj\Debug\CapaNegocios.dll
+C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\proyecto2\Segundoexamen\Proyectofinal\CapaNegocios\obj\Debug\CapaNegocios.pdb
