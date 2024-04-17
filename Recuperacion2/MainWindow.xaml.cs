@@ -47,11 +47,11 @@ public partial class MainWindow : Window
             return;
         }
 
-        // Verificar si se seleccionó una ruta y un tipo de cliente
+        
         if (rutaSeleccionada != null && tipoClienteSeleccionado != null)
         {
             RealizarVenta(rutaSeleccionada.RutaID, cantidadPersonas, tipoClienteSeleccionado.TipoID);
-            // Limpia los campos después de registrar la venta
+       
             LimpiarCampos();
         }
         else
@@ -61,7 +61,8 @@ public partial class MainWindow : Window
     }
        private void RealizarVenta(int rutaID, int cantidadPersonas, int tipoClienteID)
 {
-    string query = "INSERT INTO Ventas (RutaID, CantidadPersonas, TipoClienteID) VALUES (@RutaID, @CantidadPersonas, @TipoClienteID)";
+    string query = "INSERT INTO Ventas (VentaID, RutaID, CantidadPersonas, TipoClienteID) VALUES (@VentaID, @RutaID, @CantidadPersonas, @TipoClienteID)";
+
     
     using (SqlConnection connection = new SqlConnection(connectionString))
     {
@@ -74,7 +75,7 @@ public partial class MainWindow : Window
         command.ExecuteNonQuery();
     }
     
-    string mensaje = $"Venta registrada:\nRuta: {cmbRuta.Text}\nCantidad de personas: {cantidadPersonas}\nTipo de cliente: {cmbTipoCliente.Text}";
+    string mensaje = "";
     MessageBox.Show(mensaje);
 }
 
