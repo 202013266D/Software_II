@@ -1,0 +1,24 @@
+create database subsanacion
+go
+use subsanacion
+go
+
+CREATE TABLE Rutas (
+    RutaID INT PRIMARY KEY,
+    Nombre NVARCHAR(MAX)
+);
+
+CREATE TABLE TiposCliente (
+    TipoID INT PRIMARY KEY,
+    Tipo NVARCHAR(MAX)
+);
+
+
+CREATE TABLE Ventas (
+    VentaID INT PRIMARY KEY IDENTITY,
+    RutaID INT,
+    CantidadPersonas INT,
+    TipoClienteID INT,
+    FOREIGN KEY (RutaID) REFERENCES Rutas(RutaID),
+    FOREIGN KEY (TipoClienteID) REFERENCES TiposCliente(TipoID)
+);
