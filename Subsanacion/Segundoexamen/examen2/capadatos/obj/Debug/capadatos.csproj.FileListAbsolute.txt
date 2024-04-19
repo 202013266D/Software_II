@@ -1,5 +1,0 @@
-C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\proyecto2\Segundoexamen\examen2\capadatos\bin\Debug\capadatos.dll
-C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\proyecto2\Segundoexamen\examen2\capadatos\bin\Debug\capadatos.pdb
-C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\proyecto2\Segundoexamen\examen2\capadatos\obj\Debug\capadatos.csprojResolveAssemblyReference.cache
-C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\proyecto2\Segundoexamen\examen2\capadatos\obj\Debug\capadatos.dll
-C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\proyecto2\Segundoexamen\examen2\capadatos\obj\Debug\capadatos.pdb
