@@ -4,45 +4,45 @@
         Title="Registro de Ventas" Height="450" Width="600">
     <Grid Margin="20">
         <Grid.RowDefinitions>
-            <!-- Título -->
+          
             <RowDefinition Height="Auto"/>
-            <!-- Selección de Ruta -->
+           
             <RowDefinition Height="Auto"/>
-            <!-- Cantidad de Personas -->
+            
             <RowDefinition Height="Auto"/>
-            <!-- Tipo de Cliente -->
+          
             <RowDefinition Height="Auto"/>
-            <!-- Botón de Registro -->
+            
             <RowDefinition Height="Auto"/>
-            <!-- DataGrid para mostrar las ventas -->
+           
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <!-- Título -->
+       
         <TextBlock Text="Registro de Ventas" Grid.Row="0" FontSize="24" FontWeight="Bold" Margin="0 0 0 10"/>
 
-        <!-- Selección de Ruta -->
+      
         <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0 10 0 0">
             <TextBlock Text="Ruta Turística:" VerticalAlignment="Center"/>
             <ComboBox x:Name="cmbRuta" VerticalAlignment="Center" Margin="10 0 0 0"/>
         </StackPanel>
 
-        <!-- Cantidad de Personas -->
+       
         <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="0 10 0 0">
             <TextBlock Text="Cantidad de Personas:" VerticalAlignment="Center"/>
             <TextBox x:Name="txtCantidadPersonas" VerticalAlignment="Center" Width="50" Margin="10 0 0 0"/>
         </StackPanel>
 
-        <!-- Tipo de Cliente -->
+        
         <StackPanel Grid.Row="3" Orientation="Horizontal" Margin="0 10 0 0">
             <TextBlock Text="Tipo de Cliente:" VerticalAlignment="Center"/>
             <ComboBox x:Name="cmbTipoCliente" VerticalAlignment="Center" Margin="10 0 0 0"/>
         </StackPanel>
 
-        <!-- Botón de Registro -->
+        
         <Button Content="Registrar Venta" Grid.Row="4" HorizontalAlignment="Left" Width="120" Click="RegistrarVenta_Click" Margin="0 20 0 0"/>
 
-        <!-- DataGrid para mostrar las ventas -->
+        
         <DataGrid x:Name="dgVentas" Grid.Row="5" Margin="0,20,0,0" AutoGenerateColumns="True"/>
     </Grid>
 </Window>
