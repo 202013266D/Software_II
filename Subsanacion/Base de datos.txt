@@ -1,7 +1,10 @@
-create database subsanacion
-go
-use subsanacion
-go
+CREATE DATABASE subsanacion;
+GO
+
+
+USE subsanacion;
+GO
+
 
 CREATE TABLE Rutas (
     RutaID INT PRIMARY KEY,
@@ -22,3 +25,58 @@ CREATE TABLE Ventas (
     FOREIGN KEY (RutaID) REFERENCES Rutas(RutaID),
     FOREIGN KEY (TipoClienteID) REFERENCES TiposCliente(TipoID)
 );
+SELECT* FROM Ventas
+GO
+ALTER TABLE Ventas ADD Precio decimal(18, 2);
+
+
+INSERT INTO Rutas (RutaID, Nombre)
+VALUES 
+    (1, 'Sacsayhuaman – Puka Pukara – Tambomachay'),
+    (2, 'Tipon - Lucre - Piquillaqta'),
+    (3, 'Ollantaytambo - Machupicchu');
+
+
+INSERT INTO TiposCliente (TipoID, Tipo)
+VALUES 
+    (1, 'Promoción de colegios'),
+    (2, 'Adultos mayores de 60 años'),
+	(3, 'Adultos menores de 60 y jovenes');
+go
+CREATE PROCEDURE RegistrarVenta
+    @RutaID INT,
+    @CantidadPersonas INT,
+    @TipoClienteID INT
+AS
+BEGIN
+    
+    DECLARE @PreciosBase TABLE (RutaID INT, Precio DECIMAL(18, 2));
+    INSERT INTO @PreciosBase (RutaID, Precio)
+    VALUES (1, 100),  -- Sacsayhuaman – Puka Pukara – Tambomachay
+           (2, 120),  -- Tipon -Lucre-Piquillaqta
+           (3, 150);  -- Ollantaytambo-Machupicchu
+
+    
+    DECLARE @DescuentoCantidadPersonas DECIMAL(18, 2) = 0;
+    IF @CantidadPersonas >= 2 AND @CantidadPersonas <= 7
+        SET @DescuentoCantidadPersonas = 0.08;
+    ELSE IF @CantidadPersonas >= 8 AND @CantidadPersonas <= 16
+        SET @DescuentoCantidadPersonas = 0.13;
+    ELSE IF @CantidadPersonas >= 17
+        SET @DescuentoCantidadPersonas = 0.15;
+
+    -- Calcular el descuento adicional según el tipo de cliente
+    DECLARE @DescuentoTipoCliente DECIMAL(18, 2) = 0;
+    IF @TipoClienteID = 1  -- Promoción de colegios
+        SET @DescuentoTipoCliente = 0.07;
+    ELSE IF @TipoClienteID = 2  -- Adultos mayores de 60 años
+        SET @DescuentoTipoCliente = 0.05;
+
+    -- Calcular el precio final con descuentos
+    DECLARE @PrecioBase DECIMAL(18, 2) = (SELECT Precio FROM @PreciosBase WHERE RutaID = @RutaID);
+    DECLARE @PrecioConDescuentos DECIMAL(18, 2) = @PrecioBase * (1 - @DescuentoCantidadPersonas) * (1 - @DescuentoTipoCliente);
+
+    -- Insertar la venta en la tabla
+    INSERT INTO Ventas (RutaID, CantidadPersonas, TipoClienteID,Precio)
+    VALUES (@RutaID, @CantidadPersonas, @TipoClienteID, @PrecioConDescuentos);
+END;
