@@ -1,5 +1,0 @@
-C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\proyecto2\Agenda-main\Agenda.DataContracts\bin\Debug\Agenda.DataContracts.dll
-C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\proyecto2\Agenda-main\Agenda.DataContracts\bin\Debug\Agenda.DataContracts.pdb
-C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\proyecto2\Agenda-main\Agenda.DataContracts\obj\Debug\Agenda.DataContracts.csprojResolveAssemblyReference.cache
-C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\proyecto2\Agenda-main\Agenda.DataContracts\obj\Debug\Agenda.DataContracts.dll
-C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\proyecto2\Agenda-main\Agenda.DataContracts\obj\Debug\Agenda.DataContracts.pdb

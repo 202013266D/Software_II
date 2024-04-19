@@ -1,8 +1,0 @@
-C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\proyecto2\Agenda-main\Agenda03\bin\Debug\Agenda03.exe.config
-C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\proyecto2\Agenda-main\Agenda03\bin\Debug\Agenda03.exe
-C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\proyecto2\Agenda-main\Agenda03\bin\Debug\Agenda03.pdb
-C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\proyecto2\Agenda-main\Agenda03\obj\Debug\Agenda03.csprojResolveAssemblyReference.cache
-C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\proyecto2\Agenda-main\Agenda03\obj\Debug\Agenda03.Properties.Resources.resources
-C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\proyecto2\Agenda-main\Agenda03\obj\Debug\Agenda03.csproj.GenerateResource.Cache
-C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\proyecto2\Agenda-main\Agenda03\obj\Debug\Agenda03.exe
-C:\Users\Santiaguito\Desktop\HEMMY\Ciclo_07\Ingenieria_Software_II\proyecto2\Agenda-main\Agenda03\obj\Debug\Agenda03.pdb
